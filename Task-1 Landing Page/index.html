@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/LOGO.png" alt="logo" class="w-50">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mg-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#popular">Popular</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#review">Reviews</a>
+              </li>
+
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#question">Questions</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link btn text-white bg-dark px-3 rounded-0" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+<!-- Hero Section -->
+
+<div id="carouselExampleAutoplaying" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/home6.jpg" class="d-block w-100-height" alt="img1">
+
+        <div class="carousel-caption carousel1">
+            <p>1 / 3</p>
+            <h5>Discover Property <br> More Easily</h5>
+            <div class="mt-5 d-flex">
+                <input type="text" class="form-control search w-50 rounded-0" id="floatingInput" placeholder="Search...">
+
+                <button class="btn btn-light btn-sm justify-content-md-end mx-2 px-3 rounded-0">
+                <i class="fas fa-search"></i> Search</button>
+            </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/home7.jpg" class="d-block w-100-height" alt="img1">
+
+        <div class="carousel-caption carousel1">
+            <p>2 / 3</p>
+            <h5>Global Homes <br> For Our Future <br> Generation </h5>
+            <p><a href="#" class="btn btn-light btn-lg mt-3 rounded-0">Discover More</a></p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/home8.jpg" class="d-block w-100-height" alt="img1">
+
+        <div class="carousel-caption carousel1">
+            <p>3 / 3</p>
+            <h5>Property Buying <br> and Selling <br> Guides</h5>
+            <p><a href="#" class="btn btn-light btn-lg mt-3 rounded-0">Discover More</a></p>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="icon">&larr;</span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="icon">&rarr;</span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Popular Residence -->
+    <section class="container" style="margin-top:100px;" id="popular">
+        <p class="pt-5">Popular</p>
+        <div class="d-flex">
+            <h2>Our Popular Residence</h2>
+            <h6 class="ms-auto">Explore All <span class="arrow-icon">&rarr;</span></h6>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+            <div class="col">
+                <div class="card border-0 rounded-0">
+                    <img src="images/home1.jpg" class="card-img-top rounded-0" alt="image1">
+                    <div class="card-body">
+                        <p class="card-text text-muted">New Town, Kolkata</p>
+
+                        <div class="d-flex justify-content-center mt-3">
+                            <p class="mx-4 text-muted card-text"><i class="fa fa-car"></i> bed</p>
+                            <p class="mx-4 text-muted card-text"><i class="fa fa-play"></i> 8 * 8</p>
+                            <p class="mx-4 text-muted card-text"><i class="fa fa-compass"></i> 2000 m2</p>
+                        </div>
+
+                        <div class="d-flex my-2">
+                            <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Book Now</button>
+                            <h5 class="my-auto ms-auto"> Rs8,86,040</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-0 rounded-0">
+                    <img src="images/home4.jpg" class="card-img-top rounded-0" alt="image1">
+                    <div class="card-body">
+                        <p class="card-text text-muted">Park Street, Kolkata</p>
+
+                        <div class="d-flex justify-content-center mt-3">
+                            <p class="mx-4 text-muted card-text"><i class="fa fa-car"></i> bed</p>
+                            <p class="mx-4 text-muted card-text"><i class="fa fa-play"></i> 8 * 8</p>
+                            <p class="mx-4 text-muted card-text"><i class="fa fa-compass"></i> 2000 m2</p>
+                        </div>
+
+                        <div class="d-flex my-2">
+                            <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Book Now</button>
+                            <h5 class="my-auto ms-auto"> Rs98,10,018</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-0 rounded-0">
+                    <img src="images/home2.jpg" class="card-img-top rounded-0" alt="image1">
+                    <div class="card-body">
+                        <p class="card-text text-muted">Jadavpur, Kolkata</p>
+
+                        <div class="d-flex justify-content-center mt-3">
+                            <p class="mx-4 text-muted card-text"><i class="fa fa-car"></i> bed</p>
+                            <p class="mx-4 text-muted card-text"><i class="fa fa-play"></i> 8 * 8</p>
+                            <p class="mx-4 text-muted card-text"><i class="fa fa-compass"></i> 2000 m2</p>
+                        </div>
+
+                        <div class="d-flex my-2">
+                            <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Book Now</button>
+                            <h5 class="my-auto ms-auto"> Rs55,19,120</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- logo -->
+  <section class="bg-dark" style="margin-top: -15%;">
+      <div class="container pt-5">
+        <div class="row" style="margin-top: 25%;">
+          <div class="col-lg-4">
+              <h2 style="color: #b5b5b5;">Alex Heol</h2>
+              <p style="color: #b5b5b5;">Founder</p>
+          </div>
+
+          <div class="col-lg-8 mb-5">
+              <h6 class="lh-lg" style="color: #b5b5b5;"> &ldquo; There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. &rdquo;
+              </h6>
+          </div>
+        </div>
+
+        <hr class="text-light">
+
+        <div class="container mt-5 pb-5">
+          <div class="row text-center">
+            <div class="col-md-3 col-sm-6">
+              <img src="images/logo1.png" alt="logo1" style="width: 55%;">
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <img src="images/logo2.png" alt="logo2" style="width: 55%;">
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <img src="images/logo3.png" alt="logo3" style="width: 55%;">
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <img src="images/logo4.png" alt="logo4" style="width: 55%;">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Our Services -->
+  <section class="about section-padding" style="margin-top: 40px;" id="services">
+      <div class="text-center pb-5">
+        <h2>Our Services</h2>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-12 col-12">
+              <div class="d-flex">
+                <div class="about-img mx-2">
+                    <img src="images/about1.jpg" alt="about-img" class="img-fluid h-100 mt-4">
+                </div>
+
+                <div class="about-img">
+                  <img src="images/about2.png" alt="about-img" class="img-fluid h-75">
+              </div>
+              
+              </div>
+          </div>
+
+          <div class="col-lg-7 col-md-12 col-12 ps-lg-5 mt-md-5">
+            <div class="about-text">
+              <h2>Completely Personalized<br>
+                End To End Service</h2>
+              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official deserunt mollit anim id est laborum."
+              </p>
+
+              <a href="#" class="btn text-white bg-dark px-3 rounded-0">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+<!-- blog -->
+  <section class="container" style="margin-top:100px;" id="blog">
+    <p class="pt-5"></p>Blog
+    <div class="d-flex">
+        <h2>Latest Housing Information</h2>
+        <button class="btn text-white bg-dark px-4 btn-md ms-auto rounded-0">See All Articles</button>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+        <div class="col">
+            <div class="card border-0 rounded-0">
+                <img src="images/home1.jpg" class="card-img-top rounded-0" alt="image1">
+                <div class="card-body">
+                  <p class="card-text text-muted">21 April 2023</p>
+                    <p class="card-text text-muted">We take pride in offering comprehensive services tailored to meet the diverse needs of our clients.</p>
+                    <button class="btn text-primary px-4 btn-lg rounded-0" style="background: #d4e9ff;">Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+          <div class="card border-0 rounded-0">
+              <img src="images/home4.jpg" class="card-img-top rounded-0" alt="image1">
+              <div class="card-body">
+                <p class="card-text text-muted">04 October 2023</p>
+                  <p class="card-text text-muted">Whether you are buying, selling, leasing, or investing, we are committed to providing unparalleled expertise.</p>
+                  <button class="btn text-primary px-4 btn-lg rounded-0" style="background: #d4e9ff;">Read More</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="col">
+        <div class="card border-0 rounded-0">
+            <img src="images/home2.jpg" class="card-img-top rounded-0" alt="image1">
+            <div class="card-body">
+                <p class="card-text text-muted">31 December 2023</p>
+                <p class="card-text text-muted"> We take the time to listen to your unique requirements, preferences, and goals, tailoring our services to meet your specific needs.</p>
+                <button class="btn text-primary px-4 btn-lg rounded-0" style="background: #d4e9ff;">Read More</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- review section-->
+  <section class="bg-dark" style="margin-top: 100px;" id="review">
+      <div class="container pt-5">
+        <div class="d-flex" style="margin-top: 40px;">
+            <h2 class="text-light">What Our Customers <br> Say About Us</h2>
+
+            <div class="ms-auto">
+              <button class="btn btn-md text-light"><span class="arrow-icon mx-2">&larr;</span></button>
+              <button class="btn btn-md text-light"><span class="arrow-icon mx-2">&rarr;</span></button>
+            </div>
+        </div>
+      </div>
+
+
+<div class="container mx-auto row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 pb-5 mt-3">
+  <div class="card border-0 rounded-0 bg-transparent">
+    <div class="row g-0">
+      <div class="col-md-5">
+        <img src="images/team-1.png" class="img-fluid" alt="...">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body">
+          <h5 class="card-title text-light">Abhramin kem</h5>
+          <p class="card-text">I am now happily settled into my new home, and I attribute the success of this purchase to Dream Homes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card border-0 rounded-0 bg-transparent col-md-8">
+    <div class="row g-0">
+      <div class="col-md-5">
+        <img src="images/team-2.jpg" class="img-fluid" alt="...">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body">
+          <h5 class="card-title text-light">Lilly roy</h5>
+          <p class="card-text">They kept me informed about new listings, market updates and addressed all queries.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card border-0 rounded-0 bg-transparent col-md-8">
+    <div class="row g-0">
+      <div class="col-md-5">
+        <img src="images/team-3.png" class="img-fluid" alt="...">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body">
+          <h5 class="card-title text-light">Patrick mern</h5>
+          <p class="card-text">Dream Homes consistently provided a curated list of properties that matched my criteria.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- Q/A section-->
+<section class="about section-padding" style="margin-top: 40px;" id="question">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-12 col-12 mt-md-3">
+        <div class="about-text">
+          <p>Questions</p>
+          <h2>Frequently Asked <br> Questions</h2>
+          <p>"The success of a real estate company often depends on its ability to adapt to market conditions, provide excellent customer service, and make informed investment and management decisions."
+          </p>
+
+          <a href="#" class="btn text-white bg-dark px-3 rounded-0">See More</a>
+        </div>
+      </div>
+
+      <!-- accordion-->
+      <div class="accordion col-lg-7 mt-3" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What are lender fees?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              When a bank or financial institution processes and funds a loan, there are several fees involved, including application fees, attorney fees, recording fees, underwriting fees, and more. Although this will vary case-by-case, the costs will typically amount to about one percent of the mortgage amount. So, if you are taking a mortgage for a $100,000 home, you may pay $1,000 in lender fees. As mentioned, this will vary, so it is best to discuss exactly how much you will be expected to pay when you meet with your mortgage lender.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              What adds value to a home?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            Energy-efficient features, such as smart thermostats or solar panels, not only reduce utility costs but also attract environmentally conscious buyers. Location is another crucial element, as proximity to amenities, good schools, and low crime rates can positively impact a home's value. Up-to-date technology, such as a robust security system or home automation, can also be a selling point. Ultimately, a combination of these factors contributes to the overall desirability and market value of a home.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              How often should I check home's value?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Checking your home's value periodically is a good practice, but it's not necessary to do it too frequently. Most real estate experts recommend reviewing your home's value at least once a year. This annual assessment allows you to stay informed about market trends and changes in your neighborhood that may impact property values. 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- footer -->
+  <footer class="bg-dark bg-footer" style="margin-top: 80px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h5 class="text-light">About Us</h5>
+          <p class="text-light">Discover the difference of working with Dream Homes. We invite you to explore our listings, meet our team, and experience the personalized service that sets us apart. Your dream property is just a step away, and we are here to guide you every step of the way.</p>
+          <p class="text-light"><i class="fa fa-location"></i>Park Street, Kolkata 700032</p>
+          <p class="text-light"><i class="fa fa-phone"></i>(+91) 9874 2566 55</p>
+          <p class="text-light"><i class="fa fa-envelope"></i> dreamhomes@gmail.com</p>
+        </div>
+
+        <div class="col-lg-3">
+          <h5 class="text-light">Quick Links</h5>
+          <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#popular">Popular</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#review">Reviews</a></li>
+              <li><a href="#blog">News</a></li>
+              <li><a href="#contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h5 class="text-light">Stay Connected</h5>
+          <ul class="list-unstyled">
+              <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="text-center text-light">
+            Copyright &copy; 2023 <a href="#">Dream Homes</a>. All Rights Reserved 
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"></script>
+</body>
+</html>
