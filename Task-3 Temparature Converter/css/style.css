@@ -1,0 +1,112 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    background-color: #6FC469;
+}
+.temperature-converter{
+    background-color:#1A3800;
+    width: 100%;
+    min-height: 320px;
+    padding: 50px 70px 65px;
+    border-radius: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: -5px -5px 250px 0 rgba(233, 219, 219, 0.309) inset;
+    backdrop-filter: blur(21px);
+}
+.mobile {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.title {
+    color: #fff;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+.result {
+    text-align: center;
+    margin: 20px 0;
+}
+.result-heading {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.celsius-value {
+    border-bottom: 2px solid #555;
+    padding: 10px;
+    transition: all .45s ease;
+    color: #fff;
+}
+.degree-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.degree-field {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+label{
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: .8rem;
+}
+input, select{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #555;
+    padding: 8px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+input:focus{
+    border: 1px solid #ccc;
+}
+option{
+    background: #fff;
+    color: #000000;
+}
+#convert-btn{
+    border: none;
+    padding: 10px 16px;
+    color: black;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    border-radius: 20px;
+    background-color: #fff;
+}
+#convert-btn:hover{
+    background-color: #e1f9e0;
+}
+.fa {
+    margin-left: -12px;
+    margin-right: 8px;
+}
